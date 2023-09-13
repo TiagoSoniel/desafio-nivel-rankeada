@@ -1,3 +1,7 @@
+//Desafio calculadora de nível de rankeada
+//Fontes de auxílio: https://github.com/TiagoSoniel/primeiro-desafio-dio-logica
+//Fontes de auxílio: ChatGPT
+
 function calcularSaldo(vitorias, derrotas) {
     return vitorias - derrotas;
 }
