@@ -2,10 +2,12 @@
 //Fontes de auxílio: https://github.com/TiagoSoniel/primeiro-desafio-dio-logica
 //Fontes de auxílio: ChatGPT
 
+
+//Função para cálculo de saldo de vitórias
 function calcularSaldo(vitorias, derrotas) {
     return vitorias - derrotas;
 }
-
+//Estrutura de decisão
 function calcularNivelRankeadas(vitorias, derrotas) {
     const saldoVitorias = calcularSaldo(vitorias, derrotas);
     let nivel = "";
@@ -30,8 +32,10 @@ function calcularNivelRankeadas(vitorias, derrotas) {
 }
 
 let nomesDoHeroi = ["Soniel", "Kyara", "Andrew", "Zelgadis", "Sitka", "Alana", "Samara"];
-let vitorias = [8, 15, 30, 55, 90, 95, 110]; // Quantidade de vitórias para cada herói
-let derrotas = [2, 3, 7, 10, 5, 3, 2];     // Quantidade de derrotas para cada herói
+// Quantidade de vitórias para cada herói
+let vitorias = [8, 15, 30, 55, 90, 95, 110]; 
+// Quantidade de derrotas para cada herói
+let derrotas = [2, 3, 7, 10, 5, 3, 2];     
 let niveisDoHeroi = [];
 
 // Estrutura de repetição para determinar o nível de cada herói com base nas vitórias e derrotas
